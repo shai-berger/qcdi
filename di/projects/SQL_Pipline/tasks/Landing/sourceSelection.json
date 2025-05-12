@@ -1,0 +1,13 @@
+{
+  "sourceConnection": "{{task.landing-sg2s.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "Table_1",
+      "schema": "{{task.landing-sg2s:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_table_1"
+    }
+  ]
+}

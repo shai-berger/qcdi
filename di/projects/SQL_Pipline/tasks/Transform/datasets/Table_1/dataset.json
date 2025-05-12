@@ -1,0 +1,66 @@
+{
+  "id": "table_1-wk7a",
+  "name": "Table_1",
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDatasets": [
+    {
+      "datasetId": "table_1-bah6",
+      "name": "Table_1",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "storage_delete-sg2-"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "OFF",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "Table_1",
+    "columns": [
+      {
+        "name": "pk",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "INT"
+        },
+        "id": "pk",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "data1",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "data1",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "virtualDataset": false,
+  "description": ""
+}

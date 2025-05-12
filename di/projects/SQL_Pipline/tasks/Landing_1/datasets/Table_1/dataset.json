@@ -1,0 +1,16 @@
+{
+  "id": "table_1",
+  "name": "Table_1",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$dbo_table_1",
+      "name": "Table_1",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "landing_1-_r-o",
+      "schema": "{{task.landing_1-_r-o:null$_$dbo.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

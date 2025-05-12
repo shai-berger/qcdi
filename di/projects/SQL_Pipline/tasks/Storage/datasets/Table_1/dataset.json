@@ -1,0 +1,23 @@
+{
+  "id": "table_1-rgmc",
+  "name": "Table_1",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "table_1",
+      "name": "Table_1",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "landing_1-_r-o"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,46 @@
+{
+  "sourceDataEntityKey": {
+    "datasetId": "table_1-bah6",
+    "name": "Table_1",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "storage_delete-sg2-"
+  },
+  "filter": {
+    "expressionStatement": "${pk}\u003E",
+    "alias": [
+      {
+        "name": "pk",
+        "value": "pk"
+      }
+    ]
+  },
+  "mappingFields": [
+    {
+      "columnId": "pk",
+      "expression": {
+        "expressionStatement": "${pk}",
+        "alias": [
+          {
+            "name": "pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "data1",
+      "expression": {
+        "expressionStatement": "${data1}",
+        "alias": [
+          {
+            "name": "data1",
+            "value": "data1"
+          }
+        ]
+      }
+    }
+  ],
+  "id": "table_1_default_mapping-wk7b",
+  "name": "Table_1_default_mapping",
+  "description": ""
+}

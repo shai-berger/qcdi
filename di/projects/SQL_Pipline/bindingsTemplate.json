@@ -1,0 +1,61 @@
+{
+  "variables": {
+    "cloudStagingConnection": "",
+    "platformConnection": "",
+    "projectName": "",
+    "project.current.prefixSchema": "",
+    "task-type.datamart.databaseName": "",
+    "task-type.datamart.databaseSelectionMethod": "",
+    "task-type.datamart.warehouseName": "",
+    "task-type.datamart.warehouseSelectionMethod": "",
+    "task-type.landing.databaseName": "",
+    "task-type.landing.databaseSelectionMethod": "",
+    "task-type.landing.warehouseName": "",
+    "task-type.landing.warehouseSelectionMethod": "",
+    "task-type.registered.databaseName": "",
+    "task-type.registered.databaseSelectionMethod": "",
+    "task-type.storage.databaseName": "",
+    "task-type.storage.databaseSelectionMethod": "",
+    "task-type.storage.warehouseName": "",
+    "task-type.storage.warehouseSelectionMethod": "",
+    "task-type.transform.databaseName": "",
+    "task-type.transform.databaseSelectionMethod": "",
+    "task-type.transform.warehouseName": "",
+    "task-type.transform.warehouseSelectionMethod": "",
+    "task.landing-sg2s.databaseName": "{{task-type.landing.databaseName}}",
+    "task.landing-sg2s.sourceConnection": "",
+    "task.landing-sg2s.taskSchema": "",
+    "task.landing-sg2s:null$_$dbo.schema": "",
+    "task.landing_1-_r-o.databaseName": "{{task-type.landing.databaseName}}",
+    "task.landing_1-_r-o.sourceConnection": "",
+    "task.landing_1-_r-o.taskSchema": "",
+    "task.landing_1-_r-o:null$_$dbo.schema": "",
+    "task.storage-4yid.databaseName": "{{task-type.storage.databaseName}}",
+    "task.storage-4yid.internalSchema": "",
+    "task.storage-4yid.taskSchema": "",
+    "task.storage-4yid.warehouseName": "{{task-type.storage.warehouseName}}",
+    "task.storage_delete-sg2-.databaseName": "{{task-type.storage.databaseName}}",
+    "task.storage_delete-sg2-.internalSchema": "",
+    "task.storage_delete-sg2-.taskSchema": "",
+    "task.storage_delete-sg2-.warehouseName": "{{task-type.storage.warehouseName}}",
+    "task.transform-zavc.databaseName": "{{task-type.transform.databaseName}}",
+    "task.transform-zavc.internalSchema": "",
+    "task.transform-zavc.taskSchema": "",
+    "task.transform-zavc.warehouseName": "{{task-type.transform.warehouseName}}"
+  },
+  "idToNameMap": {
+    "landing-sg2s": "Landing",
+    "landing_1-_r-o": "Landing_1",
+    "storage-4yid": "Storage",
+    "storage_delete-sg2-": "Storage_delete",
+    "transform-zavc": "Transform"
+  },
+  "connectionProperties": {
+    "{{id(connection, ShaiB.ShaiB_Microsoft_SQL_Server_(log_based))}}": {
+      "type": "repsrc_mssql"
+    },
+    "{{id(connection, ShaiB.ShaiB_Microsoft_SQL_Server_Target)}}": {
+      "type": "reptgt_mssqltarget"
+    }
+  }
+}

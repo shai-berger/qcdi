@@ -1,0 +1,23 @@
+{
+  "id": "table_4-lab1",
+  "name": "Table_4",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "table_4",
+      "name": "Table_4",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "landing-sg2s"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sourceConnection": "{{task.landing_1-_r-o.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "Table_1",
+      "schema": "{{task.landing_1-_r-o:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_table_1"
+    },
+    {
+      "name": "Categories",
+      "schema": "{{task.landing_1-_r-o:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_categories"
+    }
+  ]
+}

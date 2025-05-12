@@ -1,0 +1,89 @@
+{
+  "id": "$replicate$dbo_categories",
+  "name": "dbo_Categories",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "Categories",
+    "dbSchema": "dbo",
+    "dbName": "Source",
+    "columns": [
+      {
+        "name": "CategoryID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "categoryid",
+        "flags": "NONE"
+      },
+      {
+        "name": "CategoryName",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 15,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "categoryname",
+        "flags": "NONE"
+      },
+      {
+        "name": "Description",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "description",
+        "flags": "NONE"
+      },
+      {
+        "name": "UNUSED_COL",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "unused_col",
+        "flags": "NONE"
+      },
+      {
+        "name": "EffDate",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 6,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "effdate",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

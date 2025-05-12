@@ -1,0 +1,44 @@
+{
+  "id": "$replicate$dbo_table_1",
+  "name": "dbo_Table_1",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "Table_1",
+    "dbSchema": "dbo",
+    "dbName": "Source",
+    "columns": [
+      {
+        "name": "pk",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "pk",
+        "flags": "NONE"
+      },
+      {
+        "name": "data1",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "data1",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

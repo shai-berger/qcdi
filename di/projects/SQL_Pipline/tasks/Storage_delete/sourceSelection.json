@@ -1,0 +1,42 @@
+{
+  "includePatterns": [
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "landing-sg2s",
+      "tablePattern": "%",
+      "schemaPattern": "%",
+      "type": "TABLE"
+    }
+  ],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "landing-sg2s",
+      "name": "Employees",
+      "type": "NONE",
+      "sourceTableId": "employees"
+    },
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "landing-sg2s",
+      "name": "Table_1",
+      "type": "NONE",
+      "sourceTableId": "table_1"
+    },
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "landing-sg2s",
+      "name": "Table_3",
+      "type": "NONE",
+      "sourceTableId": "table_3"
+    },
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "landing-sg2s",
+      "name": "Table_4",
+      "type": "NONE",
+      "sourceTableId": "table_4"
+    }
+  ]
+}
